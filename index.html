@@ -10,13 +10,13 @@
   <body>
     <h1 class="text-center">Welcome Gallery</h1>
     <div class="inputs d-flex justify-content-evenly mt-5 pb-3 border-bottom border-secondary">
-        <input class="p-2 " type="Foto Name" placeholder="Foto Name">
-        <input class="p-2 " type="Date" placeholder="Date">
+        <input class="p-2 fotonameInput" type="Foto Name" placeholder="Foto Name">
+        <input class="p-2 dateInput" type="Date" placeholder="Date">
         <input type="fotourl" placeholder="Foto URL">
-        <button class="btn btn-success">Send Gallery</button>
-        <button class="btn btn-danger">Remove Gallery</button>
+        <button id="send-gallery" class="btn btn-success">Send Gallery</button>
+        <button id="remove-gallery" class="btn btn-danger">Remove Gallery</button>
     </div>
-    <div class="container-gallery mx-4 mt-5 d-flex flex-wrap">
+    <div id="container-gallery" class="container-gallery mx-4 mt-5 d-flex flex-wrap">
 
         <!-- <div class="card mx-2 " style="width: 18rem;">
             <div class="card-body mb-2">
